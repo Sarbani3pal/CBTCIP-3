@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: #eee;
+  margin: 100;
+}
+
+.btn
+{
+float: right;
+border:4px;
+background-color: #FC6A03;
+border: none;
+padding: 14px;
+text-align: center;
+text-decoration: none;
+color: #eee;
+font-size: 16px;
+margin: 4px 2px;
+cursor:pointer;
+display: inline-block;
+}
+.btn:hover{background: #0f0809;}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 55px;
+  color: #FC6A03 ;
+  text-align: right;
+}
+.header h2 {
+  font-size: 25px;
+  color: #0f0809;
+  text-align: right;
+  padding: 14px;
+  margin : 4px;
+ 
+}
+
+.header h3 {
+  font-size: 15px;
+  font-color: #eee;
+  text-align: right;
+}
+
+.butn
+{
+	float: center;
+     border:4px;
+	background-color: #eee;
+	border: none;
+      padding: 14px;
+     text-align: center;
+     text-decoration: none;
+     color: #FC6A03;
+     font-size: 16px;
+     margin: 4px 2px;
+     cursor:pointer;
+     display: inline-block;
+}
+
+.butn:hover{background: #0f0809;}
+
+.circle {
+    float:center;
+    border-radius: 50%;
+    width: 100px;
+    color: #FC6A03;
+    border: 5px solid white;
+    height: 100px;
+    overflow: hidden;
+    background : #eee;
+    margin: auto;
+}
+
+.circle img
+{
+   width: 30%;
+   height: 40%;
+   object-fit: cover;
+}
+
+
+
+
+.div{
+   background-color: "#FC6A03";
+   width: 30px;
+   padding: 30px;
+   margin: 10px;
+  }
+.selector
+{
+  background-image: none;
+}
+.grid-container {
+  display: grid;
+  gap: 0px;
+  grid-template-columns:  auto auto auto;
+  padding: 0px;
+}
+
+.grid-item1 {
+  background-color: #FC6A03;
+  border: 1px;
+  padding: 2px;
+  font-size: 10px;
+  text-align: center;
+}
+.grid-item2 {
+  background-color: #f9a825;
+  border: 1px;
+  padding: 2px;
+  font-size: 10px;
+  text-align: center;
+}
+.grid-item3 {
+  background-color: #ffb74d;
+  border: 1px;
+  padding: 2px;
+  font-size: 10px;
+  text-align: center;
+}
+.con
+{
+  font-size: 20px;
+  color: #0f0809;
+}
+.cu
+{
+  float: right;
+  padding 14 px;
+  width: 20 px;
+  height :10px;
+}
+
+.feature-img
+{  
+   height: 90%;
+   width: 60%;
+   position : absolute;
+   bottom : 0;
+   left: 90px;
+   top: 0;
+}
+ 
+
+.container{
+      height: 90vh;
+	width:  100%;
+      padding-left: 15%;
+      padding-left: 5%;
+	text-align: left;
+      background-image: url("girl.png");
+      background-image-position: left;
+      background-size: cover;
+      background-position: 80px;
+      background-position: left;
+}
+</style>
+</head>
+<body>
+
+<div class ="container">  
+     <div class ="header h2">
+       <h2> ABOUT US</h2>
+     </div>
+     <div class="header h1" >
+          <h1>BRANDING &</h1>
+          <h1>DESIGN AGENCY</h1>
+     </div>
+     
+  <div class="con">
+           <p style ="text-align: right;">We  specialize in developing creative marketing solutions</p>
+           <p style ="text-align: right;" > through website design  online advertising ,inbound </p>
+           <p style ="text-align: right;">marketing and software development</p>
+   
+      </div>
+   
+         <a href ="#" class="btn" >READ MORE</a></br>
+</div>
+
+<div class="grid-container">
+  <div class="grid-item1" >
+       <div class="circle" >
+          <img src="book.jpeg" alt ="book"> </div>
+	    <h1>ANALYSIS</h1>
+          <p>The best way to start earning extra cash from the comfort of your own home</p>
+          <p>The best way to start earning extra cash from the comfort of your own home</p>
+  <a href ="#" class="butn" >MORE</a></br>
+ </div>
+     
+  <div class="grid-item2">
+       <div class="circle">
+           <img src="plan.jpeg" alt ="plan"> </div>
+         <h1>PLANNING<h1>
+         <p>The best way to start earning extra cash from the comfort of your own home</p>
+         <p>The best way to start earning extra cash from the comfort of your own home</p>
+ <a href ="#" class="butn" >MORE</a></br>
+   </div>
+     
+  <div class="grid-item3">
+      <div class="circle">
+         <img src="tube.png" alt ="design"></div>
+      <h1>DESIGN</h1>
+      <p>The best way to start earning extra cash from the comfort of your own home</p>
+      <p>The best way to start earning extra cash from the comfort of your own home</p>
+   <a href ="#" class="butn" >MORE</a></br>
+    </div>
+     
+</div>
+
+
+
+
+
+</body>
+</html>
